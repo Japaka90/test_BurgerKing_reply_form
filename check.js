@@ -430,7 +430,7 @@ TICKET_DETAILS_DATA['draft']['default_reply'] = document.getElementById('ticket_
 		<div class="ticket-actions" data-domhelper-name="ticket-actions">
 			<ul class="collapse-content" data-domhelper-name="ticket-action-options">
 				<li class="ticket-btns">
-					<div class="watchers_tooltip hide" id="new_watcher_page" rel="" data-url="/helpdesk/tickets/165/subscriptions" data-load-unique="true"><span class="arrow-top"></span>
+					<div class="watchers_tooltip hide" id="new_watcher_page" rel="" data-url="/helpdesk/tickets/165/subscriptions" data-load-unique="true" style="display: none;"><span class="arrow-top"></span>
 <span class="watcher-close">×</span>
 <div class="watcher_label">
      <div>
@@ -1133,14 +1133,14 @@ TICKET_DETAILS_DATA['draft']['default_reply'] = document.getElementById('ticket_
 			</div>
 		</div>
 		<div id="agent_collision_placeholder"><div class="ticket-notifications" id="agent_collision_show">
-    <div class="view-flip" rel="notice-popover" id="agents_viewing" data-object="viewing" data-placement="right" data-original-title="Currently viewing">
+    <div class="view-flip" rel="notice-popover" id="agents_viewing" data-object="viewing" data-placement="right" data-original-title="Currently viewing" style="">
       <a href="#">
         <div class="flip-front"></div>
         <div class="flip-back">0</div>
       </a>
     </div>
 
-    <div class="reply-flip" rel="notice-popover" id="agents_replying" data-object="replying" data-placement="right" data-original-title="Currently replying">
+    <div class="reply-flip" rel="notice-popover" id="agents_replying" data-object="replying" data-placement="right" data-original-title="Currently replying" style="">
       <a href="#">
         <div class="flip-front"></div>
         <div class="flip-back">0</div>
@@ -2840,7 +2840,7 @@ function fetchAndDisplayDefaultResults(url, lang_id){
   				
   				
 
-  				<div class="request_panel hide" id="cnt-fwd">
+  				<div class="request_panel hide" id="cnt-fwd" style="display: block;">
   				<script type="text/javascript">
   function lookup(searchString, callback) { 
     new Ajax.Request('/search/autocomplete/requesters?q='+encodeURIComponent(searchString), 
@@ -2886,7 +2886,7 @@ function fetchAndDisplayDefaultResults(url, lang_id){
       </div>
 
       <div class="email_container forward_email">
-        <ul class="multi_value_field"><li class="search_field_item"><input type="text" autocomplete="off" tabindex="" placeholder=""></li></ul><div class="autocomplete" style="position: absolute; display: none;"><ul></ul></div>
+        <ul class="multi_value_field"><li choice_id="alesya.kholodova@swedbyte.se" class="choice">alesya.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li choice_id="alesya2.kholodova@swedbyte.se" class="choice">alesya2.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya2.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li choice_id="alesya3.kholodova@swedbyte.se" class="choice">alesya3.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya3.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li class="search_field_item"><input type="text" autocomplete="off" tabindex="" placeholder=""></li></ul><div class="autocomplete" style="position: absolute; display: none;"><ul></ul></div>
         <script type="text/javascript">
           new Autocompleter.MultiValue("to_emails_cnt-fwd", cachedLookup, $A(), {frequency: 0.1, acceptNewValues: true,allowSpaces: true, separatorRegEx:/;|,/});
         </script>
