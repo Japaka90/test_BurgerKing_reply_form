@@ -2886,7 +2886,7 @@ function fetchAndDisplayDefaultResults(url, lang_id){
       </div>
 
       <div class="email_container forward_email">
-        <ul class="multi_value_field"><li choice_id="alesya.kholodova@swedbyte.se" class="choice">alesya.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li choice_id="alesya2.kholodova@swedbyte.se" class="choice">alesya2.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya2.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li choice_id="alesya3.kholodova@swedbyte.se" class="choice">alesya3.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya3.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li class="search_field_item"><input type="text" autocomplete="off" tabindex="" placeholder=""></li></ul><div class="autocomplete" style="position: absolute; display: none;"><ul></ul></div>
+        <ul class="multi_value_field"><li choice_id="alesya.kholodova@swedbyte.se" class="choice">alesya.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li choice_id="alesya2.kholodova@swedbyte.se" class="choice">alesya2.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya2.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li choice_id="alesya3.kholodova@swedbyte.se" class="choice">alesya3.kholodova@swedbyte.se<a class="close-link"></a><input type="hidden" value="alesya3.kholodova@swedbyte.se" name="helpdesk_note[to_emails][]"></li><li choice_id="gf" class="choice">gf<a class="close-link"></a><input type="hidden" value="gf" name="helpdesk_note[to_emails][]"></li><li class="search_field_item"><input type="text" autocomplete="off" tabindex="" aria-invalid="false" class="valid"></li></ul><div class="autocomplete" style="position: absolute; display: none;"><ul></ul></div>
         <script type="text/javascript">
           new Autocompleter.MultiValue("to_emails_cnt-fwd", cachedLookup, $A(), {frequency: 0.1, acceptNewValues: true,allowSpaces: true, separatorRegEx:/;|,/});
         </script>
@@ -2930,7 +2930,7 @@ function fetchAndDisplayDefaultResults(url, lang_id){
 </ul>
 </div>
     
-            <textarea class="body_html" cols="40" data-quoted-textarea="#cnt-fwd-quoted" data-wrap-font-family="true" id="cnt-fwd-body" name="helpdesk_note[note_body_attributes][body_html]" rows="20">&lt;p/&gt;&lt;div&gt;&lt;p&gt;Please take a look at ticket &lt;a href="https://burgerking.freshdesk.com/helpdesk/tickets/165"&gt;#165&lt;/a&gt; raised by Тестовая заявка (a@g.tu).&lt;/p&gt;&lt;br/&gt;&lt;div dir="ltr"&gt;
+            <textarea class="body_html valid" cols="40" data-quoted-textarea="#cnt-fwd-quoted" data-wrap-font-family="true" id="cnt-fwd-body" name="helpdesk_note[note_body_attributes][body_html]" rows="20" aria-invalid="false">&lt;p/&gt;&lt;div&gt;&lt;p&gt;Please take a look at ticket &lt;a href="https://burgerking.freshdesk.com/helpdesk/tickets/165"&gt;#165&lt;/a&gt; raised by Тестовая заявка (a@g.tu).&lt;/p&gt;&lt;br/&gt;&lt;div dir="ltr"&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt; </textarea>
             <textarea cols="40" id="cnt-fwd-body-fulltext" name="helpdesk_note[note_body_attributes][full_text_html]" rows="20" style="display:none;"></textarea>
@@ -3005,7 +3005,7 @@ function fetchAndDisplayDefaultResults(url, lang_id){
     
 
 
-</ul><input type="hidden" name="helpdesk_note[to_emails]" class="emptyValueField"><input type="hidden" name="helpdesk_note[cc_emails]" class="emptyValueField"><input type="hidden" name="helpdesk_note[bcc_emails]" class="emptyValueField">
+</ul><input type="hidden" name="helpdesk_note[cc_emails]" class="emptyValueField"><input type="hidden" name="helpdesk_note[bcc_emails]" class="emptyValueField">
 
 <div class="btn-toolbar no-width">
 
